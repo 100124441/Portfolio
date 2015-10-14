@@ -1,6 +1,6 @@
 
 h1 h2 h3 h4 h5 {
-    font-family: 'FixedsysExcelsior', 'Open Sans', Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 600;
     background-color: rgba(0,0,0,0);
 }
@@ -26,7 +26,6 @@ nav.navbar.navbar-default.navbar-fixed-top.topnav {
 
 a.#namelink {
     color: #000;
-    font-family: 'FixedsysExcelsior';
 }
 
 .topnav ul.navbar-nav li {
