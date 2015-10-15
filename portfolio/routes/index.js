@@ -1,6 +1,10 @@
 var express = require('express');
 var router = express.Router();
 var fs = require('fs');
+var app = express();
+var bodyParser = require('body-parser');
+app.use(bodyParser.json());
+
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -19,13 +23,11 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact' });
 });
 
-router.post('/contact/contacted', function(req, res, next) {
-  fs.appendFile() {
+router.post('/contact/comments', function(req, res) {
+  //fs.appendFile() {
+  //});
+  res.render('comments', { title: 'Contact' });
     
-  });
-  res.render('contacted', { title: 'Contact',
-                            message: 'Comment saved'
-  })
 });
 
 module.exports = router;
