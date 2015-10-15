@@ -1,0 +1,20 @@
+<%- include partials/header.ejs %>
+    <main>
+        <div class='container'>
+            <div class='jumbotron'>
+                <h1><%= title %></h1>
+                <form method='post' action='/contact/comments'>
+                    <div>
+                        <input type='text' name='username'>
+                    </div>
+                    <div>
+                        <input type='text' name='comment'>
+                    </div>
+                    <div>
+                        <button type='submit'>Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+<%- include partials/footer.ejs %>

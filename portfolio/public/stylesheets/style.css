@@ -1,0 +1,61 @@
+
+h1 h2 h3 h4 h5 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 600;
+    background-color: rgba(0,0,0,0);
+}
+
+body {
+    background-color: #26596A;
+    padding-top: 50px;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.topnav {
+    background: #104050;
+    border-bottom: 1px;
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+.topnav .navbar-brand {
+    color: #000;
+    background: #457585;
+}
+
+.topnav .navbar-brand:hover {
+    background: #6C939F;
+}
+
+.topnav ul.navbar-nav li {
+    background: rgba(50, 150, 150, 0.5);
+}
+
+.topnav ul.navbar-nav li a {
+    color: #000;
+}
+
+.topnav ul.navbar-nav li a:hover {
+    color: #000;
+    background: rgba(240, 240, 240, 0.7);
+}
+
+.jumbotron {
+    position: relative;
+    top: 50px
+}
+
+h2 {
+    font-size: 80px;
+    text-shadow: 0px 0px 20px #0FF;
+}
+
+footer {
+    color: #AAA;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    background-color: #104050;
+}
+
+footer ul {
+    display: block;
+}
